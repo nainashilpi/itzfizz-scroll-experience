@@ -1,16 +1,62 @@
-# React + Vite
+# ITZFIZZ Scroll Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern scroll-driven digital experience built with React, Tailwind CSS and GSAP ScrollTrigger.
 
-Currently, two official plugins are available:
+The project focuses on creating an engaging visual interaction where the user's scroll controls a moving car, progressively reveals the headline, animates performance metrics and transitions the experience into a dark visual section.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+https://nainashilpi.github.io/itzfizz-scroll-experience/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Repository
 
-## Expanding the ESLint configuration
+https://github.com/nainashilpi/itzfizz-scroll-experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Scroll-driven car animation
+- GSAP ScrollTrigger based interactions
+- Progressive `WELCOME ITZFIZZ` text reveal
+- Sticky road animation
+- Animated impact metrics
+- Smooth light-to-dark visual transition
+- Responsive layout for desktop and mobile
+- Minimal, modern digital-agency inspired interface
+- Transform-based animations for smoother performance
+
+## Tech Stack
+
+- React.js
+- JavaScript
+- Vite
+- Tailwind CSS
+- GSAP
+- GSAP ScrollTrigger
+- HTML5
+- CSS3
+
+## How It Works
+
+The experience uses GSAP ScrollTrigger to synchronize the main visual with the user's scroll position.
+
+As the user scrolls:
+
+1. The car moves across the road.
+2. The headline letters are revealed progressively as the car passes them.
+3. A visual trail follows the car.
+4. Impact metrics appear at different points in the scroll sequence.
+5. The visual environment transitions from a light interface into a dark section.
+6. The road remains pinned during the final transition to maintain continuity.
+
+## Performance
+
+The animation primarily uses CSS transforms and GSAP-controlled properties to keep the interaction smooth and avoid unnecessary layout changes.
+
+The project is built as a production-ready Vite application and deployed using GitHub Pages.
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/nainashilpi/itzfizz-scroll-experience.git
